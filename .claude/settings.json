@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Bash(git *)",
+      "Bash(pytest *)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(npm *)",
+      "Bash(node *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo *)",
+      "Bash(chmod *)",
+      "Bash(curl * | bash *)"
+    ]
+  }
+}
