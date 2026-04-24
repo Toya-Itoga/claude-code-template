@@ -27,11 +27,11 @@
 - 直前のコミットに戻す: `git revert HEAD`
 
 ## サーバー起動
-- 開発サーバー: `python -m uvicorn src.main:app --reload`
+- 開発サーバー(uvicorn): `python -m uvicorn src.main:app --reload`
 
 ## テスト
 - 全テスト実行: `pytest tests/ -v`
 
 ## 仮想環境
-- 作成: `python -m venv .venv`
+- 作成: `python3.12 -m venv .venv`
 - 有効化: `source .venv/bin/activate`
