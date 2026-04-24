@@ -6,10 +6,10 @@
 ## ディレクトリ構成
 - `.venv/`                - 仮想環境
 - `src/`                  - アプリ本体
-- `src/routers`
-- `src/services`
-- `src/ripositories`
-- `src/templates`
+- `src/`
+- `src/`
+- `src/`
+- `src/`
 - `config/`               - 設定・ドキュメント
 - `scripts/`              - 開発補助スクリプト
 - `tests/`                - テストコード
