@@ -14,6 +14,7 @@
 - `scripts/`              - 開発補助スクリプト
 - `tests/`                - テストコード
 - `.claude/commands/`     - コマンド
+- `.claude/agents/`       - サブエージェント定義
 
 ## コーディング規約
 - コメントを書く
