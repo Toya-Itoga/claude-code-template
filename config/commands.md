@@ -8,17 +8,20 @@
 
 ## Git初期設定
 
-### 初回のみ
+### テンプレートから始める場合
+- リモート削除: `git remote remove origin`
+- リモート紐付け: `git remote add origin https://github.com/ユーザー名/新しいリポジトリ名.git`
+- 最初のpush: `git push -u origin main`
+
+### ゼロから始める場合
 - Gitの初期化: `git init`
 - リモートの紐付け: `git remote add origin https://github.com/ユーザー名/リポジトリ名.git`
-
-### 最初のpush
 - `git add .`
 - `git commit -m "first commit"`
 - `git branch -M main`
 - `git push -u origin main`
 
-## Git
+## Git関係
 - プッシュ: `sh scripts/push.sh ""`
 - 変更履歴確認: `git log --oneline`
 - 直前のコミットに戻す: `git revert HEAD`
