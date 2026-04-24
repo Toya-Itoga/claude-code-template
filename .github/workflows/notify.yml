@@ -1,0 +1,13 @@
+name: Notify
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  # ジョブをここに追加
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: echo "ワークフローの準備完了"
